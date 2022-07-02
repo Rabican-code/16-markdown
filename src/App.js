@@ -4,7 +4,7 @@ import ReactMarkdown from 'react-markdown'
 function App() {
   const [markdown, setMarkdown] = useState('## Write markdown here')
   return <main>
-    <section className='## Write markdown here'>
+    <section className='markdown'>
       <textarea
         className="input"
         value={markdown}
