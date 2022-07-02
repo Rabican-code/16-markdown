@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import ReactMarkdown from 'react-markdown'
 
 function App() {
-  const [markdown, setMarkdown] = useState('## Markdown')
+  const [markdown, setMarkdown] = useState('## Write markdown here')
   return <main>
     <section className='## Write markdown here'>
       <textarea
